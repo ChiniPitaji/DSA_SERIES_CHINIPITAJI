@@ -30,3 +30,19 @@ for(int row=0;row<3;row++){
    cout<<endl;
 }
 
+
+//pattern 2=>
+square pattern for n number
+
+
+
+//pattern 3=>
+Hollow rectangle
+* * * * *    <=row 0 -->5*
+*       *    <=row 0 --> 1* then 2,3,4->space then 5*
+* * * * *    <=row 0 -->5*
+
+simply: 
+-first and last row mai pure stars print ho
+-baki mai 1st and last position pe stars ho and bich mai spaces
+
