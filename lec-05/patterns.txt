@@ -68,3 +68,14 @@ Inverted half Pyramid
 
 isn't it like doing n - row
 
+
+
+//pattern 6 =>
+Numeric Half Pyramid
+1           <=row 0
+1 2         <=row 1
+1 2 3       <=row 2
+1 2 3 4     <=row 3
+1 2 3 4 5   <=row 4
+
+for each row countig is running to row+1 times
