@@ -1,0 +1,34 @@
+just a connect session to know more about doubts and how's the thing going and jargans......
+
+
+lecture-3:
+~Thought process
+~flowchart
+~pseudocode
+~compilation- HLL(high level language)
+
+what's the need so flow chart and pseudocode: 
+just to xplain things to others and easy understanding of the program
+
+Questions:--->
+:count from 1 to 5. ans=loop banao 0 se n-1 tk and cout krte jao i ko
+:is the number prime or not. ans= n ko 2 se n-1 tk divide karo and if condition mai check karo divide hone pe 0 aa rha kya if YES then not prime ,Else Prime.
+
+
+lecture-4:
+~PL/CP 
+~create your 1st program: learns about boilerplate, namespace,int main Vs void main 
+~datatypes: what type of data storing in the variable ,their sizes/range between how much data they can hold
+~Variables: name give to the storage memory location,can't use keywords/reserved words as variable
+~ +ve/-ve (complements) 
+~some problems
+~Type casting : conversion of one datatypes to another
+
+ 
+lecture-5:
+~condition: if,if-else,if-elseif-if.
+~loops:for(initilasation,condition,updation)
+
+
+
+

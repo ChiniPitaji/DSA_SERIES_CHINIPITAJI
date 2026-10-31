@@ -48,6 +48,14 @@
 // }
 
 //---->>Variable naming conventions[explore]
+// meaningful name
+// no space
+// don't start with digits
+// Camel case
+// start with lowercase letter
+// special symbol
+// underscore
+
 
 // int a = 10;
 // cout<<sizeof(a)<<endl; -->it will print the size of the variable a. now try it for other datatypes as :float,double,long.char,bool.......
