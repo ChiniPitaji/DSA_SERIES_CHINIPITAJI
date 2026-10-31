@@ -18,9 +18,7 @@ int main()
         {
             cout<<col+1;
         }
-        cout<<endl;
-        
+        cout<<endl;   
     }
-    
     return 0;
 }
