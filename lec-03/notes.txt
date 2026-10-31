@@ -1,0 +1,43 @@
+thought process to solve a problem:
+1. understand the problem
+2. i/p values
+3. approach
+
+
+problem -> solution -> flowchart / Pseudo code -> high level language (source code, user friendly) -> machine understandable language
+
+
+using computer to solve a problem:
+larger problem ke liye ek concept ko repeat krke data find krna bhot problematic hota hai isliye computer
+
+
+flowchart:
+graphical representation of an algo.
+
+oval shape -> terminator [use for start and end]
+
+parralelogram block -> input/output
+
+rectangular -> process block
+
+kaju-katli -> condition (descision making block)
+
+(->) arrow is connector
+
+
+---------------------------
+
+Pseudo code:
+generic way of represnting your algo in textual form
+
+example : give difference of two no
+1. read a
+2. read b
+3. dif=a-b
+4. print dif
+5. exit
+
+-----------
+
+
+

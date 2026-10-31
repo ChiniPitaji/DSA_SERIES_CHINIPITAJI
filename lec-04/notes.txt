@@ -1,0 +1,10 @@
+compilation processes:
+source code(programming language)->compiler->machine understandable format (0-1).
+
+programming language: a language using which, we can instruct the computer to carry out real life tasks and computations.
+->has fixed set of rules
+->compiler: convert those programs into a language which machines con understand
+---->once a program is compiled and linked, its executable is created and the computer can run our program now.
+
+IDE->code editor , provide environment to write code
+
