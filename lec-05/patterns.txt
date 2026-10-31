@@ -57,3 +57,14 @@ Half Pyramid
 ******    <=row 5 ->6*
 
 
+//pattern 5 =>
+Inverted half Pyramid
+******    <=row 0 ->6*    6 - 0
+*****     <=row 1 ->5*    6 - 1
+****      <=row 2 ->4*    6 - 2
+***       <=row 3 ->3*    6 - 3
+**        <=row 4 ->2*    6 - 4
+*         <=row 5 ->1*    6 - 5
+
+isn't it like doing n - row
+
