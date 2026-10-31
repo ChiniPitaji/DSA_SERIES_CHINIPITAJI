@@ -8,11 +8,14 @@ using namespace std;
 
 int main()
 {
-    for (int row = 0; row < 3; row++)
+    int rowCount,colCount;
+    cin>>rowCount;
+    cin>>colCount;
+    for (int row = 0; row < rowCount; row++)
     {
-        if (row == 0 || row == 2)
+        if (row == 0 || row == rowCount-1)
         {
-            for (int col = 0; col < 5; col++)
+            for (int col = 0; col < colCount; col++)
             {
                 cout << "* ";
             }
@@ -23,7 +26,7 @@ int main()
             // first star
             cout << "* ";
             // spaces
-            for (int i = 0; i < 3; i++)
+            for (int i = 0; i < colCount-2; i++)
             {
                 cout << "  ";
             }
@@ -35,3 +38,6 @@ int main()
 
     return 0;
 }
+
+//colCount-2 bcoz=>if 8 col 1st and last col pe star then 8-2=6 spaces between those.
+// no of col - 2 = spaces

@@ -46,3 +46,14 @@ simply:
 -first and last row mai pure stars print ho
 -baki mai 1st and last position pe stars ho and bich mai spaces
 
+
+//pattern 4=>
+Half Pyramid
+*         <=row 0 ->1*
+**        <=row 1 ->2*
+***       <=row 2 ->3*
+****      <=row 3 ->4*
+*****     <=row 4 ->5*
+******    <=row 5 ->6*
+
+
