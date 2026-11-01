@@ -1,0 +1,114 @@
+07) Multiply Two Numbers :
+start(oval shaped)
+input/read a ,b (in parallelogram)
+prod=a*b (in rectangle)
+print prod (in parallelogram)
+end (oval shaped)
+
+08) Find Perimeter Of a Triangle :
+start(oval shaped)
+input/read a ,b,c (in parallelogram)
+P=a+b+c (in rectangle)
+print P (in parallelogram)
+end (oval shaped)
+
+09) Find Simple Interest :
+start(oval shaped)
+input/read P,R,T (in parallelogram)
+SI=(P*R*T)/100 (in rectangle)
+print SI (in parallelogram)
+end (oval shaped)
+
+10) Print Counting From N to 1 :
+start(oval shaped)
+input/read N (in parallelogram)
+i=N (in rectangle)
+i>=1 (in Kaju katli{conditional block})
+if yes
+    print i (in rectangle)
+    i=i-1 (in rectangle)
+then back to conditional block
+runs until the condition unsatisfied
+if no 
+    end(oval shaped)
+
+11) Find Factorial Of a Number :
+start(oval shaped)
+input/read N (in parallelogram)
+fact = 1 (in rectangle)
+N>=1(in kaju katli)
+if yes
+    fact = fact * Number
+    N = N - 1
+back to the conditional block
+runs until the condition unsatisfied
+if no 
+    print fact (rectangle)
+end(oval shaped)
+
+12) Check a Number Is Prime Or Not :
+start(oval shaped)
+input/read N (in parallelogram)
+i=2 (in rectangle)
+i<N(in kaju katli)
+if yes
+    (n % i) = 0
+    if yes
+        not Prime(in parallelogram)
+    if no 
+        i = i + 1
+        back to the conditional block
+        runs until the condition unsatisfied
+if no
+    Prime(in parallelogram)
+end (oval shaped)
+
+13) Check Given Triangle Is Valid Or Not :
+mathematically-> sum of two sides > the third side
+(a+b)>c
+(b+c)>a
+(a+c)>b
+
+start(oval shaped)
+input/read a,b,c (in parallelogram)
+(a+b)>c AND (b+c)>a AND (a+c)>b(in kaju katli)
+if yes
+    print valid(in parallelogram)
+if no
+    print not valid(in parallelogram)
+end (oval shaped)
+
+14) Print Only Even Number From 1 To N :
+start(oval shaped)
+input/read N (in parallelogram)
+i=2 (in rectangle)
+i<=N (in kaju katli)
+if yes
+    print i(in parallelogram)
+    i=i+2(in rectangle)
+    back to condition block
+if no
+end (oval shaped)
+
+15) Print Maximum Of Three Numbers :
+start(oval shaped)
+input/read a ,b,c (in parallelogram)
+a>b(in kaju katli)
+    if yes
+    a>c(in kaju katli)
+        if yes
+        print a(in parallelogram)
+        if no 
+        print c(in parallelogram)
+if no
+   b>c(in kaju katli)
+   if yes
+    print b(in parallelogram)
+    if no 
+        print c(in parallelogram)
+end (oval shaped)
+ 
+
+
+
+
