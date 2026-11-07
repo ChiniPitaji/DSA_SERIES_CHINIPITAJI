@@ -107,7 +107,7 @@ if no
     if no 
         print c(in parallelogram)
 end (oval shaped)
- 
+ u
 
 
 
