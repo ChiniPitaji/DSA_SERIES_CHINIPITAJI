@@ -21,4 +21,23 @@ i   j -> 0 1 2 3 4 5
 
 here, for i = 1 to i = 4: if (col == n - row - 1) { cout << "*"; } i.e: (j == n - i - 1)
 
+19) Hollow Full Pyramid:
 
+          *          
+        *   *        
+      *       *      
+    *           *    
+  *               *  
+* * * * * * * * * * *
+
+here we have 6 rows and 11 cols. we can call it as N × (2N-1) matrix..
+means: Row=N and col=(2×N-1)
+
+~>for full pyramid:
+i=0 then 5 spaces, 1*, 5 spaces 
+i=1 then 4 spaces, 3*, 4 spaces 
+i=2 then 3 spaces, 5*, 3 spaces  and so on..
+Cond^n: 
+(1) j<(N-i-1) {cout<<" "}
+(2) k=0(initial), if(k<(2*i+1)){cout<<"*"} k++;
+(3) else cout<<" "
