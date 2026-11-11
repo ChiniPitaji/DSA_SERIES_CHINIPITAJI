@@ -53,3 +53,20 @@ outer loop:
               } 
               cout<<endl;
             } 
+
+
+P3) Solid Diamond :
+     *
+    * *
+   * * *
+  * * * *
+ * * * * *
+* * * * * *
+* * * * * * 
+ * * * * *
+  * * * *
+   * * *
+    * *
+     * 
+
+just add the full pyramid and the inverted pyramid code together
