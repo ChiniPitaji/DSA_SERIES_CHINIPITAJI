@@ -70,3 +70,35 @@ P3) Solid Diamond :
      * 
 
 just add the full pyramid and the inverted pyramid code together
+
+P4) Hollow Diamond
+     *
+    * *
+   *   *
+  *     *
+ *       *
+*         *
+*         * 
+ *       *
+  *     *
+   *   *
+    * *
+     * 
+
+for the spaces at the start : n-row-1
+how many character do we have to print after that
+for upper pyramid part-
+row 0 -> 1star  => total 1 character
+row 1 -> 1star then 1 space then 1sta r=> total 3 character
+row 2 -> 1star then 3 space then 1star => total 5 character
+row 3 -> 1star then 5 space then 1star => total 7 character
+and so on.....
+
+we can see the character to print are in odd number for even we now 2*n whereas for odd 2*n-1 or 2*n+1
+so here: character print = 2*row+1
+
+for inverted part-
+row 0 ->7 character
+row 1 ->5 character
+row 2 ->3 character and so on...
+here character print = 2*n -(2*row+1)
