@@ -1,4 +1,4 @@
-P1) full pyramid:
+P1) Full Pyramid:
      *
     * *
    * * *
@@ -20,9 +20,36 @@ outer loop:
               {
 
               } 
-              for( row + 1) <- for stars
+              for( row + 1)              <- for stars
               {
 
               } 
               cout<<endl;
             }
+
+
+P2) Inverted Full Pyramid:
+* * * * * * 
+ * * * * *
+  * * * *
+   * * *
+    * *
+     *
+
+row 0 -> 0 spaces 6 star
+row 1 -> 1 spaces 5 star
+row 2 -> 2 spaces 4 star and so on.....
+
+outer loop:
+            for( int row=0;row<n;row++)
+            {
+  inner loop: for(col=0;col<row)     <-for spaces
+              {
+
+              } 
+              for( n- row)              <- for stars
+              {
+
+              } 
+              cout<<endl;
+            } 
