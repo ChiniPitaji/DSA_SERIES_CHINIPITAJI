@@ -1,0 +1,28 @@
+P1) full pyramid:
+     *
+    * *
+   * * *
+  * * * *
+ * * * * *
+* * * * * * 
+
+row 0 -> 5 spaces 1 star
+row 1 -> 4 spaces 2 star
+row 2 -> 3 spaces 3 star
+row 3 -> 2 spaces 4 star
+row 4 -> 1 spaces 5 star
+row 5 -> 0 spaces 6 star
+
+outer loop:
+            for( int row=0;row<n;row++)
+            {
+  inner loop: for(col=0;col<n-row-1)     <-for spaces
+              {
+
+              } 
+              for( row + 1) <- for stars
+              {
+
+              } 
+              cout<<endl;
+            }
